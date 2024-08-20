@@ -1,0 +1,157 @@
+Source file = test2.txt
+Enter Program
+Line: 1, spelling = [(], kind = 9
+Enter Sequence
+Line: 1, spelling = [(], kind = 9
+Enter Statements
+Enter Stmt
+Line: 1, spelling = [(], kind = 9
+Enter Assignment
+Line: 1, spelling = [assign], kind = 2
+Line: 1, spelling = [x], kind = 0
+Enter Expression
+Line: 1, spelling = [3], kind = 1
+Exit Expression
+Exit Assignment
+Line: 1, spelling = [)], kind = 10
+Line: 1, spelling = [(], kind = 9
+Enter Assignment
+Line: 1, spelling = [assign], kind = 2
+Line: 1, spelling = [y], kind = 0
+Enter Expression
+Line: 1, spelling = [(], kind = 9
+Enter Operation
+Line: 1, spelling = [+], kind = 11
+Exit Operation
+Enter Expression
+Line: 1, spelling = [x], kind = 0
+Exit Expression
+Enter Expression
+Line: 1, spelling = [1], kind = 1
+Exit Expression
+Line: 1, spelling = [)], kind = 10
+Exit Expression
+Exit Assignment
+Line: 1, spelling = [)], kind = 10
+Line: 1, spelling = [(], kind = 9
+Enter Conditional
+Line: 1, spelling = [conditional], kind = 3
+Enter Expression
+Line: 1, spelling = [(], kind = 9
+Enter Operation
+Line: 1, spelling = [<], kind = 11
+Exit Operation
+Enter Expression
+Line: 1, spelling = [x], kind = 0
+Exit Expression
+Enter Expression
+Line: 1, spelling = [y], kind = 0
+Exit Expression
+Line: 1, spelling = [)], kind = 10
+Exit Expression
+Enter Stmt
+Line: 1, spelling = [(], kind = 9
+Enter Assignment
+Line: 1, spelling = [assign], kind = 2
+Line: 1, spelling = [a], kind = 0
+Enter Expression
+Line: 1, spelling = [x], kind = 0
+Exit Expression
+Exit Assignment
+Line: 1, spelling = [)], kind = 10
+Line: 1, spelling = [(], kind = 9
+Enter Assignment
+Line: 1, spelling = [assign], kind = 2
+Line: 1, spelling = [a], kind = 0
+Enter Expression
+Line: 1, spelling = [y], kind = 0
+Exit Expression
+Exit Assignment
+Line: 1, spelling = [)], kind = 10
+Exit Stmt
+Enter Stmt
+Exit Stmt
+Exit Conditional
+Line: 1, spelling = [)], kind = 10
+Line: 1, spelling = [(], kind = 9
+Enter Loop
+Line: 1, spelling = [loop], kind = 4
+Enter Expression
+Line: 1, spelling = [(], kind = 9
+Enter Operation
+Line: 1, spelling = [<], kind = 11
+Exit Operation
+Enter Expression
+Line: 1, spelling = [b], kind = 0
+Exit Expression
+Enter Expression
+Line: 1, spelling = [(], kind = 9
+Enter Operation
+Line: 1, spelling = [-], kind = 11
+Exit Operation
+Enter Expression
+Line: 1, spelling = [2], kind = 1
+Exit Expression
+Enter Expression
+Line: 1, spelling = [0], kind = 1
+Exit Expression
+Line: 1, spelling = [)], kind = 10
+Exit Expression
+Line: 1, spelling = [)], kind = 10
+Exit Expression
+Enter Stmt
+Line: 1, spelling = [(], kind = 9
+Enter Assignment
+Line: 1, spelling = [assign], kind = 2
+Line: 1, spelling = [b], kind = 0
+Enter Expression
+Line: 1, spelling = [(], kind = 9
+Enter Operation
+Line: 1, spelling = [+], kind = 11
+Exit Operation
+Enter Expression
+Line: 1, spelling = [b], kind = 0
+Exit Expression
+Enter Expression
+Line: 1, spelling = [1], kind = 1
+Exit Expression
+Line: 1, spelling = [)], kind = 10
+Exit Expression
+Exit Assignment
+Line: 1, spelling = [)], kind = 10
+Exit Stmt
+Exit Loop
+Line: 1, spelling = [)], kind = 10
+Exit Stmt
+Exit Statements
+Line: 1, spelling = [)], kind = 10
+Exit Sequence
+Enter State
+Line: 1, spelling = [(], kind = 9
+Enter Pairs
+Enter Pair
+Line: 1, spelling = [(], kind = 9
+Line: 1, spelling = [a], kind = 0
+Line: 1, spelling = [0], kind = 1
+Line: 1, spelling = [)], kind = 10
+Line: 1, spelling = [(], kind = 9
+Line: 1, spelling = [b], kind = 0
+Line: 1, spelling = [0], kind = 1
+Line: 1, spelling = [)], kind = 10
+Line: 1, spelling = [(], kind = 9
+Line: 1, spelling = [x], kind = 0
+Line: 1, spelling = [0], kind = 1
+Line: 1, spelling = [)], kind = 10
+Line: 1, spelling = [(], kind = 9
+Line: 1, spelling = [y], kind = 0
+Line: 1, spelling = [0], kind = 1
+Line: 1, spelling = [)], kind = 10
+Exit Pair
+Exit Pairs
+Line: 1, spelling = [)], kind = 10
+Exit State
+Line: 1, spelling = [)], kind = 10
+Exit Program
+The completed program:
+( ( ( assign x 3 ) ( assign y ( + x 1 ) ) ( conditional ( < x y ) ( assign a x ) ( assign a y ) ) ( loop ( < b ( - 2 0 ) ) ( assign b ( + b 1 ) ) ) ) ( ( a 0 ) ( b 0 ) ( x 0 ) ( y 0 ) ) ) 
+The syntax of the source program is correct.
